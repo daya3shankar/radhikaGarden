@@ -110,3 +110,25 @@ ul li {
 .whatsapp-button a {
     display: block;
 }
+
+/* Phone Call Button */
+.phone-button {
+    position: fixed;
+    bottom: 80px; /* Place it above the WhatsApp button */
+    right: 10px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column; /* Stack call icons vertically */
+    gap: 10px;
+}
+
+.phone-button a {
+    display: block;
+}
+
+.phone-button img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
